@@ -1,4 +1,4 @@
-# Blackline Cruiser – Autonomous Robotic Car
+# BLACK-LINE CRUISER – Autonomous Robotic Car
 
 Blackline Cruiser is an Arduino-powered robotic car capable of following a black line and avoiding obstacles using IR and ultrasonic sensors. Designed for efficiency and reliability, it demonstrates core principles of autonomous navigation and embedded systems.
 
