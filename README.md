@@ -1,19 +1,19 @@
-# 🚗 Blackline Cruiser – Line Following & Obstacle Avoiding Robotic Car
+# Blackline Cruiser – Autonomous Robotic Car
 
 Blackline Cruiser is an Arduino-powered robotic car capable of following a black line and avoiding obstacles using IR and ultrasonic sensors. Designed for efficiency and reliability, it demonstrates core principles of autonomous navigation and embedded systems.
 
 ---
 
-## 🔧 Features
+## Features
 
-- 🚦 **Line Following** using IR sensors with 95% accuracy  
-- 🧱 **Obstacle Avoidance** using ultrasonic sensor with 100% detection rate  
-- 🔋 Powered by Arduino Uno for real-time sensor processing and motor control  
-- 🛠️ Simple hardware setup with modular, beginner-friendly code  
+- Line Following using IR sensors with 95% accuracy  
+- Obstacle Avoidance using ultrasonic sensor with 100% detection rate  
+- Powered by Arduino Uno for real-time sensor processing and motor control  
+- Simple hardware setup with modular, beginner-friendly code  
 
 ---
 
-## 🖥️ Technologies Used
+## Technologies Used
 
 - Arduino Uno  
 - IR Sensors (TCRT5000) – for line detection  
@@ -24,7 +24,7 @@ Blackline Cruiser is an Arduino-powered robotic car capable of following a black
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 **Line Tracking:**  
 IR sensors detect the contrast between the black line and the surface. The Arduino adjusts motor direction based on sensor input to keep the car aligned.
@@ -34,25 +34,41 @@ If an obstacle is detected within a threshold distance by the ultrasonic sensor,
 
 ---
 
-## ⚙️ Circuit Diagram
+## Circuit Diagram
 
-📌 [Add image here – e.g., `circuit_diagram.png`]
-
----
-
-## ▶️ Getting Started
-
-**Prerequisites:**  
-- Arduino IDE  
-- Required components connected to Arduino Uno  
-
-**Uploading the Code:**  
-1. Connect Arduino to your PC.  
-2. Open `blackline_cruiser.ino` in Arduino IDE.  
-3. Select the correct port and board.  
-4. Upload the code and place the car on a black track.  
+![Circuit Diagram](circuit_diagram.png)  
+*Add your wiring diagram image here.*
 
 ---
 
-## 📁 Project Structure
+## Images of the Robot Car
+
+**Front View**  
+![Front View](front_view.png)  
+*Add your front image here.*
+
+**Back View**  
+![Back View](back_view.png)  
+*Add your back image here.*
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Arduino IDE installed on your computer  
+- Components connected to Arduino Uno as per the circuit diagram  
+
+### Steps to Upload the Code
+
+1. Connect the Arduino board to your PC via USB.  
+2. Open the `blackline_cruiser.ino` file in Arduino IDE.  
+3. Select the correct board type (Arduino Uno) and COM port.  
+4. Upload the sketch to the Arduino board.  
+5. Place the car on a black line track and power it on.  
+
+---
+
+## Project Structure
 
